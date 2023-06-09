@@ -537,10 +537,42 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <input type="text" class="modal-input" />
-          <input type="text" class="modal-input" />
-          <input type="text" class="modal-input" />
-          <button type="submit"></button>
+          <div class="inputs">
+            <label for="user-name" class="input-label">Name</label>
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              class="modal-input"
+              placeholder=""
+            />
+            <label for="user-tel" class="input-label">Phone</label>
+            <input
+              type="text"
+              name="user-tel"
+              id="user-tel"
+              class="modal-input"
+              placeholder=""
+            />
+            <label for="user-email" class="input-label">Email</label>
+            <input
+              type="text"
+              name="user-email"
+              id="user-email"
+              class="modal-input"
+              placeholder=""
+            />
+            <label for="comment" class="comment">Comment</label>
+            <textarea
+              class="textarea"
+              name="Comment"
+              id="Comment"
+              cols="30"
+              rows="10"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <button type="submit">Send</button>
         </form>
       </div>
     </div>
