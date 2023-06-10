@@ -696,6 +696,11 @@ img {
 
 .input-label {
     margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #8E8F99;
 }
 
 .input-wrap {
@@ -741,6 +746,11 @@ img {
     outline: transparent;
     resize: none;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-comment:focus {
@@ -750,6 +760,11 @@ img {
 .check-text {
     display: flex;
     align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
 }
 
 .check-text span {
@@ -769,4 +784,16 @@ img {
     border: 1px solid #404BBF;
     border-radius: 2px;
     fill: #F4F4FD;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
