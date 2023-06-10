@@ -695,7 +695,6 @@ img {
 }
 
 .input-label {
-    margin-top: 8px;
     margin-bottom: 4px;
 }
 
@@ -706,6 +705,8 @@ img {
 
 .input-wrap {
     position: relative;
+    margin-top: 4px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
@@ -714,8 +715,9 @@ img {
     box-sizing: border-box;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding-left: 19px;
+    padding-left: 36px;
     color: #4D5AE5;
+    outline: transparent;
 }
 
 .modal-icon {
