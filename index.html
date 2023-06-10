@@ -538,14 +538,20 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="inputs">
-            <label for="user-name" class="input-label">Name</label>
-            <input
-              type="text"
-              name="user-name"
-              id="user-name"
-              class="modal-input"
-              placeholder=""
-            />
+            <div class="modal-field">
+              <label for="user-name" class="input-label">Name</label>
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  class="modal-input"
+                />
+                <svg class="modal-icon" width="12" height="12">
+                  <use href="./images/icons.svg#icon-person-black"></use>
+                </svg>
+              </div>
+            </div>
             <label for="user-tel" class="input-label">Phone</label>
             <input
               type="text"
@@ -554,6 +560,9 @@
               class="modal-input"
               placeholder=""
             />
+            <svg class="modal-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
             <label for="user-email" class="input-label">Email</label>
             <input
               type="text"
@@ -562,6 +571,9 @@
               class="modal-input"
               placeholder=""
             />
+            <svg class="modal-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
             <label for="comment" class="comment">Comment</label>
             <textarea
               class="textarea"

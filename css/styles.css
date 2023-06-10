@@ -704,6 +704,10 @@ img {
     margin-bottom: 4px;
 }
 
+.input-wrap {
+    position: relative;
+}
+
 .modal-input {
     width: 360px;
     height: 40px;
@@ -714,10 +718,18 @@ img {
     color: #4D5AE5;
 }
 
+.modal-icon {
+    position: absolute;
+    left: 19;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .textarea {
     width: 360px;
     height: 120px;
     padding-left: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    resize: none;
 }
