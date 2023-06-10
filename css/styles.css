@@ -720,7 +720,7 @@ img {
 
 .modal-icon {
     position: absolute;
-    left: 19;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
 }
