@@ -582,15 +582,35 @@
                 </svg>
               </div>
             </div>
-            <label for="comment" class="input-label">Comment</label>
-            <textarea
-              class="modal-comment"
-              name="comment"
-              id="comment"
-              placeholder="Text input"
-            ></textarea>
+            <div class="modal-field">
+              <label for="comment" class="input-label">Comment</label>
+              <textarea
+                class="modal-comment"
+                name="comment"
+                id="comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+            <!-- Checkbox -->
+            <div class="modal-field">
+              <input
+                type="checkbox"
+                id="privacy"
+                name="privacy"
+                value="true"
+                class="modal-check visually-hidden"
+              />
+              <label for="privacy" class="check-text">
+                <span>
+                  <svg class="modal-check" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the Privacy Policy</label
+              >
+            </div>
+            <button type="submit">Send</button>
           </div>
-          <button type="submit">Send</button>
         </form>
       </div>
     </div>
