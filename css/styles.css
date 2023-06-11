@@ -565,7 +565,10 @@ img {
     color: var(--text-color-two);
 }
 
-.footer-soc-container {}
+.footer-soc-container {
+    width: 228px;
+    height: 80px;
+}
 
 .footer-soc-text {
     font-weight: 500;
@@ -574,13 +577,13 @@ img {
     letter-spacing: 0.02em;
     color: var(--title-color-two);
     margin-bottom: 16px;
+    padding-left: 0;
 }
 
 .footer-soc-list {
     display: flex;
+    justify-content: space-between;
     gap: 16px;
-    width: 208px;
-    height: 80px;
 }
 
 .footer-soc-item {
@@ -606,6 +609,20 @@ img {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: #31d0aa;
+}
+
+.footer-form-container {
+    margin-left: 60px;
+    width: 453px;
+    height: 80px;
+}
+
+.footer-form-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 /* Modal */
