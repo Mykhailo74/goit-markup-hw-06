@@ -617,6 +617,11 @@ img {
     height: 80px;
 }
 
+.footer-modal-form {
+    display: flex;
+    gap: 24px;
+}
+
 .footer-form-text {
     font-weight: 500;
     font-size: 16px;
@@ -624,11 +629,6 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-}
-
-.footer-inputs {
-    display: flex;
-    gap: 24px;
 }
 
 .footer-e-mail {
